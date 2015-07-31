@@ -35,23 +35,73 @@
 # activate :livereload
 # activate :livereload, host: "127.0.0.1"
 
+activate :i18n, mount_at_root: :nl, langs: [:nl, :de]
+
 # Blog
 Time.zone = "CET"
 
+# activate :blog do |blog|
+#   blog.prefix = "blog"
+#   blog.permalink = ":title"
+#   # blog.tag_template = "blog/tag.html"
+#   # blog.calendar_template = "blog/calendar.html"
+#   blog.paginate = false
+#   # blog.per_page = 10
+# end
+
+# activate :blog do |blog|
+#   blog.name = "nl"
+#   blog.sources = "{year}-{month}-{day}-{title}.html"
+#   blog.prefix = "blog"
+#   blog.permalink = ":title"
+#   blog.paginate = false
+# end
+
+# activate :blog do |blog|
+#   blog.name = "de"
+#   # blog.sources = ["{year}-{month}-{day}-{title}.html", "{lang}/{year}-{month}-{day}-{title}.html"]
+#   blog.sources = "{lang}/{year}-{month}-{day}-{title}.html"
+#   blog.prefix = "blog"
+#   # blog.prefix = "de"
+#   # blog.permalink = ":title"
+#   # blog.permalink = "de/blog/:title"
+#   blog.permalink = "{lang}/:title"
+#   blog.paginate = false
+# end
+
+# activate :blog do |blog|
+#   blog.sources = ":lang/blog/{year}-{month}-{day}-{title}.html"
+#   # blog.prefix = "blog"
+#   blog.permalink = ":lang/blog/{title}"
+#   # blog.paginate = false
+# end
+
+# activate :blog do |blog|
+#   # blog.sources = "blog/:lang/{year}-{month}-{day}-{title}.html"
+#   blog.sources = "blog/:lang/:year-:month-:day-:title.html"
+#   # blog.prefix = "blog"
+#   blog.permalink = ":lang/blog/:title"
+#   # blog.paginate = false
+# end
+
 activate :blog do |blog|
-  blog.prefix = "blog"
-  blog.permalink = ":title"
-  # blog.tag_template = "blog/tag.html"
-  # blog.calendar_template = "blog/calendar.html"
+  blog.sources = "/blog/:lang/:year-:month-:day-:title.html"
+  blog.permalink = ":lang/blog/:title"
   blog.paginate = false
-  # blog.per_page = 10
 end
 
-page "blog/*", layout: :blog_post_layout
-page "blog/index.html", layout: :blog_layout
-page "blog/feed.xml", layout: false
+# page "blog/*", layout: :blog_post_layout
+# page "blog/index.html", layout: :blog_layout
+# page "blog/feed.xml", layout: false
 
-activate :i18n, mount_at_root: :nl, langs: [:nl, :de]
+page "*blog/*", layout: :blog_post_layout
+page "*blog/index.html", layout: :blog_layout
+page "*blog/feed.xml", layout: false
+
+# proxy "/blog/nl/", "/blog/", locals: {
+#   which_fake_page: "Rendering a fake page with a local variable"
+# }
+
 activate :directory_indexes
 
 set :css_dir, "stylesheets"
@@ -148,13 +198,11 @@ helpers do
   def country_flags
     flag_titles = { nl: "Nederlands", de: "Deutsch", en: "English" }
     html = ""
-
     (langs - [I18n.locale]).each do |lang|
       url = locale_url_for(current_page.url, { lang: lang })
       img = image_tag("flags/#{lang}.gif", alt: flag_titles[lang])
-      html << link_to(img, url, title: flag_titles[lang])
+      html << link_to(img, url, title: flag_titles[lang]) + "\n"
     end
-
     html
   end
 

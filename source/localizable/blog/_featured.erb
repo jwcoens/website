@@ -5,8 +5,13 @@
 #   concat article.title
 # end
 
+# blog = blog("nl")
+# blog = blog("de")
+# blog = blog(I18n.locale.to_s)
+
 # Get single featured post
-featured = blog.articles.find { |item| item.metadata[:page]["featured"] rescue false }
+# featured = blog.articles.find { |item| item.metadata[:page]["featured"] rescue false }
+featured = blog.local_articles.find { |item| item.metadata[:page]["featured"] rescue false }
 
 if featured
   author = blog_author(featured)
@@ -19,7 +24,9 @@ if featured
         <h3><%= link_to featured.title, featured.url %></h3>
         <div class="post-meta">
           <span class="author-name"><%= author_name %></span>
-          <time datetime="<%= featured.date.strftime('%F') %>"><%= I18n.l(featured.date, format: "%e %B %Y", locale: I18n.locale.to_s) %></time>
+          <time datetime="<%= featured.date.strftime('%F') %>">
+            <%= I18n.l(featured.date, format: "%e %B %Y", locale: I18n.locale.to_s) %>
+          </time>
         </div>
       </header>
 

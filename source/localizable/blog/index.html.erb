@@ -9,12 +9,13 @@
     <% if paginate && num_pages > 1 %>
       <p>Page <%= page_number %> of <%= num_pages %></p>
       <% if prev_page %>
-        <p><%= link_to 'Previous page', prev_page %></p>
+        <p><%= link_to "Previous page", prev_page %></p>
       <% end %>
     <% end %>
 
     <ol>
-      <% page_articles.each_with_index do |article, i| %>
+      <%# page_articles.each_with_index do |article, index| %>
+      <% blog.local_articles.each_with_index do |article, index| %>
         <li>
           <article>
 
@@ -34,7 +35,9 @@
                 author_name = author ? "#{author.firstname} #{author.lastname}" : article.data.author
                 %>
                 <span class="author-name"><%= author_name %></span>
-                <time datetime="<%= article.date.strftime('%F') %>"><%= I18n.l(article.date, format: "%e %B %Y", locale: I18n.locale.to_s) %></time>
+                <time datetime="<%= article.date.strftime('%F') %>">
+                  <%= I18n.l(article.date, format: "%e %B %Y", locale: I18n.locale) %>
+                </time>
               </div>
             </footer>
 
@@ -45,7 +48,7 @@
 
     <% if paginate %>
       <% if next_page %>
-        <p><%= link_to 'Next page', next_page %></p>
+        <p><%= link_to "Next page", next_page %></p>
       <% end %>
     <% end %>
 
