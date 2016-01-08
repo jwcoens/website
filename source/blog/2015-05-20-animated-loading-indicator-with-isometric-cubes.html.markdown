@@ -2,7 +2,7 @@
 title: Animated loading indicator with isometric cubes
 date: 2015-05-20 14:10 CEST
 author: Matthijs
-lang: en
+lang: nl
 image: images/social/learningspaces-1200x630.jpg
 ---
 
