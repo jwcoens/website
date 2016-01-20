@@ -1,7 +1,9 @@
 .producten_index,
 .diensten_index {
   text-align: center;
-
+  h2 { 
+    font-size: 1.5em
+  }
   .solitions-list {
     > li {
       background-color: #fff;

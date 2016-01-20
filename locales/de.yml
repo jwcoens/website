@@ -181,7 +181,8 @@ de:
     name: LearningSpaces
     start_now: "Starte durch mit LearningSpaces"
   products:
-    title: "Produkte auf die wir stolz sind."
+    title: "Produkte auf die wir stolz sind"
+    subtitle: "Ein vollständiges Bild des Lernens, der Entwicklung und Qualifizierung"
   references:
     title: "Einige Referenzen"
   services:

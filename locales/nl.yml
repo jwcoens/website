@@ -168,7 +168,8 @@ nl:
     name: LearningSpaces
     start_now: "Begin nu met LearningSpaces"
   products:
-    title: "Producten waar we trots op zijn."
+    title: "Producten waar we trots op zijn"
+    subtitle: "Een compleet beeld van leren, ontwikkelen en kwalificeren"
   references:
     title: "Enkele referenties"
   services:
