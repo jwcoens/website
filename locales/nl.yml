@@ -191,6 +191,7 @@ nl:
     title: "Diensten waar we trots op zijn."
   testimonials:
     title: "Wat anderen zeggen"
+    more_testimonials: "Meer testimonials"
   thanks:
     heading: Bedankt!
     message: Je hoort zo snel mogelijk van ons.
