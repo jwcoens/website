@@ -118,7 +118,7 @@ nl:
           - Competenties
           - Jaargesprekken
         text_html: "Geef medewerkers efficiënte tools voor hun ontwikkelprocessen en een overzichtelijk persoonlijk portfolio."
-        title: Ontwikkelen
+        title: CAPP Ontwikkelen
       headline: "Defacto helpt organisaties bij het ontwikkelen en certificeren van hun medewerkers"
       informal:
         keywords:
@@ -133,14 +133,14 @@ nl:
           - Leermanagament
           - "E-Learning / ELO"
         text_html: "De stille, krachtige motor van uw academie. Stroomlijn processen en bespaar tijd. Creëer inzicht met %{link} Leren."
-        title: Leren
+        title: CAPP Leren
       quality:
         keywords:
           - Verplichte opleiding en praktijkervaring vastleggen
           - Bewaken certificering
           - Kwaliteitsmonitor voor accreditatie van NIAZ, ISO, WFT, Wet BIO, JSI, etc.
         text_html: "Real-time inzicht in vakbevoegdheid van uzelf, uw team en uw organisatie. Voldoe permanent en zichtbaar aan de (formele) kwaliteitseisen."
-        title: Kwaliteitspaspoort
+        title: CAPP Kwaliteitspaspoort
   hosting:
     heading: "Hosting & Security"
   implementaties:
