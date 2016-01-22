@@ -163,7 +163,7 @@ nl:
       heading_md: "Vandaag nog beginnen met een gratis trial?"
     desc: "%{link} is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert."
     hero:
-      text_md: "__LearningSpaces__ is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert."
+      text_md: "LearningSpaces is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert."
     logo: logos/learningspaces-white.png
     name: LearningSpaces
     start_now: "Begin nu met LearningSpaces"

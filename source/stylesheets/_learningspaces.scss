@@ -5,11 +5,19 @@
     background-image: url(../images/learningspaces-pattern.svg);
     background-position: center;
 
-
+    img { 
+      margin-bottom: 0.75em;
+    }
     h1 {
-      // @include media($large-up) {
-      //   font-size: 4em;
-      // }
+      font-size: 2em;
+      font-weight: 300;
+      line-height: 1.2em;
+      margin-bottom: 0.75em;
+    
+      @include media($small-only) {
+      font-size: 1em;
+      margin-bottom: 1.5em;
+      }
     }
   }
 
