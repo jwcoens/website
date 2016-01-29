@@ -1,4 +1,4 @@
-<section class="feature-list four solutions-overview">
+<section class="solutions">
   <div class="row">
     <div class="headline">
       <h2><%= t("home.solutions.headline") %></h2>
@@ -6,31 +6,52 @@
   </div>
 
   <div class="row">
-    <div class="col">
-      <%= locale_link_to image_tag("icons/leren-blue.png", alt: t("home.solutions.learn.title")), "/capp.html" %>
+    <div class="solution">
+      <div class="solution-icon">
+        <%= locale_link_to image_tag("icons/leren-blue.png", alt: t("home.solutions.learn.title")), "/capp.html" %>
+      </div>
       <h3><%= locale_link_to t("home.solutions.learn.title"), "/capp.html" %></h3>
       <p><%= t("home.solutions.learn.text_html", link: locale_link_to("CAPP", "/capp.html")) %></p>
+      <a class="button blue" href="#">Meer over CAPP leren</a>
     </div>
 
-    <div class="col">
-      <%= locale_link_to image_tag("icons/ontwikkelen-blue.png", alt: t("home.solutions.develop.title")), "/capp.html" %>
-      <h3><%= locale_link_to t("home.solutions.develop.title"), "/capp.html" %></h3>
-      <p><%= t("home.solutions.develop.text_html") %></p>
-    </div>
-
-    <div class="col">
-      <%= locale_link_to image_tag("icons/borging-blue.png", alt: t("home.solutions.quality.title")), "/kwaliteitspaspoort.html" %>
-      <h3><%= locale_link_to t("home.solutions.quality.title"), "/kwaliteitspaspoort.html" %></h3>
-      <p><%= t("home.solutions.quality.text_html") %></p>
-    </div>
-
-    <div class="col">
-      <%= locale_link_to image_tag("icons/informeel-green.png", alt: t("home.solutions.informal.title")), "/learningspaces.html" %>
+    <div class="solution">
+      <div class="solution-icon">
+        <%= locale_link_to image_tag("icons/informeel-green.png", alt: t("home.solutions.informal.title")), "/learningspaces.html" %>
+      </div>
       <h3><%= locale_link_to t("home.solutions.informal.title"), "/learningspaces.html" %></h3>
       <p><%= t("home.solutions.informal.text_html", link: locale_link_to("LearningSpaces", "/learningspaces.html")) %></p>
+      <a class="button green" href="#">Meer over LearningSpaces</a>
     </div>
+
+    
+
   </div>
 
+  <div class="row">
+    <div class="solution">
+      <div class="solution-icon">
+        <%= locale_link_to image_tag("icons/ontwikkelen-blue.png", alt: t("home.solutions.develop.title")), "/capp.html" %>
+      </div>
+      <h3><%= locale_link_to t("home.solutions.develop.title"), "/capp.html" %></h3>
+      <p><%= t("home.solutions.develop.text_html") %></p>
+      <a class="button blue" href="#">Meer over CAPP ontwikkelen</a>
+    </div>
+
+    <div class="solution">
+      <div class="solution-icon">
+        <%= locale_link_to image_tag("icons/borging-blue.png", alt: t("home.solutions.quality.title")), "/kwaliteitspaspoort.html" %>
+      </div>
+      <h3><%= locale_link_to t("home.solutions.quality.title"), "/kwaliteitspaspoort.html" %></h3>
+      <p><%= t("home.solutions.quality.text_html") %></p>
+      <a class="button blue" href="#">Meer over CAPP Kwaliteitspaspoort</a>
+    </div>
+      
+    
+
+  </div>
+
+  <!-- 
   <div class="feature-keywords">
     <div class="row">
 
@@ -68,4 +89,5 @@
 
     </div>
   </div>
+  -->
 </section>
