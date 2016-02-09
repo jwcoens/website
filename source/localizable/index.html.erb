@@ -15,7 +15,7 @@ sitemap_priority: 1
 <%= partial "solutions_overview" %>
 <%= partial "product_highlights" %>
 
-<section class="testimonials cols">
+<section class="testimonials">
   <div class="headline">
     <h2><%= t("testimonials.title") %></h2>
   </div>
@@ -27,6 +27,9 @@ sitemap_priority: 1
       summary: true
     } %>
 
+  </div>
+  <div class="row">
+    <%= nav_link_to t("testimonials.more_testimonials"), "/testimonials.html", class: "button blue outline" %>
   </div>
 </section>
 
