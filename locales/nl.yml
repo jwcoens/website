@@ -106,9 +106,7 @@ nl:
       form_title: "Maak een afspraak"
       text_html: "Meer weten? Bel <a href=\"tel:+31503144832\" class=\"phone\">050 314 48 32</a> of"
     hero:
-      since: "sinds 1987"
-      text: "Meer dan 200.000 professionals gebruiken onze software om te leren en hun talenten te ontwikkelen."
-      title: "Developing People"
+      title: "Defacto helpt organisaties bij het ontwikkelen en certificeren van hun medewerkers"
     highlights:
       capp:
         text_html: "%{link} zorgt er voor dat uw medewerkers op eenvoudige en doeltreffende wijze leren en hun talenten ontwikkelen."
@@ -128,15 +126,15 @@ nl:
           - "Direct aan de slag met Learning Communities"
           - "Snel en eenvoudig kennis delen"
           - "Kennis produceren en consumeren"
-        text_html: "%{link} is een laagdrempelig sociaal leerplatform dat kennisdeling en leren stimuleert."
+        text_html: "%{link} is een laagdrempelig sociaal leerplatform dat kennisdeling en leren stimuleert. En gratis voor kleine teams."
         title: "Informeel leren met LearningSpaces"
       learn:
         keywords:
           - Opleidingsadministratie
           - Leermanagament
           - "E-Learning / ELO"
-        text_html: "De stille, krachtige motor van uw academie. Stroomlijn processen en bespaar tijd. Creëer inzicht met %{link} Leren."
-        title: CAPP Leren
+        text_html: "De stille, krachtige motor van uw academie. Stroomlijn processen en bespaar tijd. Creëer inzicht met %{link} Leren & Ontwikkelen."
+        title: CAPP Leren & Ontwikkelen
       quality:
         keywords:
           - Verplichte opleiding en praktijkervaring vastleggen
