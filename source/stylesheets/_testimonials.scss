@@ -15,12 +15,12 @@
   }
 
   &.cols .testimonial-list {
-    margin: 0 auto;
+    margin: 0;
     max-width: none;
 
     li {
       @include media($large-up) {
-        @include span-columns(6);
+        @include span-columns(9);
         @include omega(2n);
       }
     }
