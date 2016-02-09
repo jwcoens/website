@@ -117,7 +117,6 @@ nl:
           - Jaargesprekken
         text_html: "Geef medewerkers efficiënte tools voor hun ontwikkelprocessen en een overzichtelijk persoonlijk portfolio."
         title: CAPP Ontwikkelen
-      headline: "Defacto helpt organisaties bij het ontwikkelen en certificeren van hun medewerkers"
       informal:
         keywords:
           - "Direct aan de slag met Learning Communities"
@@ -189,6 +188,7 @@ nl:
     title: "Diensten waar we trots op zijn."
   testimonials:
     title: "Wat anderen zeggen"
+    more_testimonials: "Meer testimonials"
   thanks:
     heading: Bedankt!
     message: Je hoort zo snel mogelijk van ons.
