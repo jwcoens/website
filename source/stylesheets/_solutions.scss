@@ -1,20 +1,21 @@
 .solutions { 
-  h2 { 
-    font-size: 2em; 
-    margin-bottom: 3em;
-  }
   a {
     color: $base-font-color;
   }
   p { 
     min-height: 70px; 
   }
+  .row { 
+    margin-top: 3em; 
+  }
   .solution {
-    margin-bottom: 6em;
+    margin-bottom: 3em;
     text-align:center;
     padding: 2em;
     border: 1px solid #ddd;
-
+    .button { 
+      font-size: 1em;
+    }
     .solution-icon {
       background: #fff;
       padding: 1em; 
@@ -22,12 +23,12 @@
       display: inline-block;
 
       img {
-        height: 140px;
+        height: 100px;
       }
     }
 
     @include media($medium-up) {
-      @include span-columns(6);
+      @include span-columns(4);
       
     }
   }
