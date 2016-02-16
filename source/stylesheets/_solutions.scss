@@ -1,21 +1,39 @@
 .solutions { 
+
   a {
     color: $base-font-color;
   }
+
   p { 
     min-height: 70px; 
   }
-  .row { 
-    margin-top: 3em; 
+
+  h2 { 
+      font-size: 2em;
   }
+  
+  .row { 
+    margin-top: 2em;
+
+    @include media($large-up) { 
+      display: flex;
+    }
+  }
+
   .solution {
     margin-bottom: 3em;
-    text-align:center;
+    text-align: center;
     padding: 2em;
     border: 1px solid #ddd;
+    
+      @include media($large-down) {
+        margin-bottom: 6em;
+    }
+
     .button { 
       font-size: 1em;
     }
+
     .solution-icon {
       background: #fff;
       padding: 1em; 
@@ -23,13 +41,16 @@
       display: inline-block;
 
       img {
-        height: 100px;
+        height: 90px;
       }
     }
 
-    @include media($medium-up) {
+    @include media($large-up) {
       @include span-columns(4);
-      
+
+      h3 { 
+        font-size: 1.4em; 
+      }
     }
   }
 }
