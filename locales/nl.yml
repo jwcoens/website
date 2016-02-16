@@ -109,6 +109,7 @@ nl:
       since: "sinds 1987"
       text: "Meer dan 200.000 professionals gebruiken onze software om te leren en hun talenten te ontwikkelen"
       title: "Defacto helpt organisaties bij het ontwikkelen en certificeren van hun medewerkers"
+
     highlights:
       capp:
         text_html: "%{link} zorgt er voor dat uw medewerkers op eenvoudige en doeltreffende wijze leren en hun talenten ontwikkelen."
@@ -122,13 +123,14 @@ nl:
           - Jaargesprekken
         text_html: "Geef medewerkers efficiënte tools voor hun ontwikkelprocessen en een overzichtelijk persoonlijk portfolio."
         title: CAPP Ontwikkelen
+      headline: "Defacto helpt organisaties bij het ontwikkelen en certificeren van hun medewerkers"
       informal:
         keywords:
           - "Direct aan de slag met Learning Communities"
           - "Snel en eenvoudig kennis delen"
           - "Kennis produceren en consumeren"
-        text_html: "%{link} is een laagdrempelig sociaal leerplatform dat kennisdeling en leren stimuleert. En gratis voor kleine teams."
-        title: "Informeel leren met LearningSpaces"
+        text_html: "%{link} is een laagdrempelig sociaal leerplatform dat kennisdeling en leren stimuleert. Probeer LearningSpaces gratis."
+        title: "Informeel leren"
       learn:
         keywords:
           - Opleidingsadministratie
