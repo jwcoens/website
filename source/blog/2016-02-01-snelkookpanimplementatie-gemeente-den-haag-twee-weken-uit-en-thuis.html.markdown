@@ -1,6 +1,6 @@
 ---
 title: Snelkookpan-implementatie bij de gemeente Den Haag - in twee weken uit en thuis!
-date: 2016-02-01 17:33 CET
+date: 2016-02-01 8:00 CET
 author: Joost
 lang: nl
 ---
