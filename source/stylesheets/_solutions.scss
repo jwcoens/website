@@ -1,69 +1,71 @@
-.solutions { 
+.solutions {
 
   a {
     color: $base-font-color;
   }
 
-  p { 
-    min-height: 70px; 
+  p {
+    min-height: 70px;
   }
 
-  h2 { 
+  h2 {
       font-size: 2em;
   }
-  
-  .row { 
+
+  .row {
     margin-top: 2em;
 
-    @include media($large-up) { 
+    @include media($large-up) {
       display: flex;
     }
   }
 
   .solution {
-    margin-bottom: 3em;
-    text-align: center;
-    padding: 2em;
     border: 1px solid #ddd;
-    
+    margin-bottom: 3em;
+    padding: 2em;
+    text-align: center;
+
       @include media($large-down) {
         margin-bottom: 6em;
     }
-    .solution-checklist { 
+
+    .solution-checklist {
       width: 100%;
     }
+
     .checklist {
-      position: relative;
       display: inline-block;
-      
-      li {
-        position: relative;
-        margin: 0 0 0.8em 0;
-        padding: 0 0 0 30px;
-      }
+      position: relative;
     }
 
-    .button { 
+    li {
+      margin: 0 0 0.8em 0;
+      padding: 0 0 0 30px;
+      position: relative;
+    }
+
+    .button {
       font-size: 1.2em;
       margin-top: 1em;
     }
 
     .solution-icon {
       background: #fff;
-      padding: 1em; 
-      margin-top: -6em;
       display: inline-block;
+      margin-top: -6em;
+      padding: 1em;
+    }
 
-      img {
+    img {
         height: 90px;
       }
-    }
 
     @include media($large-up) {
       @include span-columns(4);
 
-      h3 { 
-        font-size: 1.4em; 
+      h3 {
+        font-size: 1.4em;
       }
     }
   }
