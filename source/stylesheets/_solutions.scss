@@ -1,17 +1,5 @@
 .solutions {
 
-  a {
-    color: $base-font-color;
-  }
-
-  p {
-    min-height: 70px;
-  }
-
-  h2 {
-      font-size: 2em;
-  }
-
   .row {
     margin-top: 2em;
 
@@ -20,14 +8,18 @@
     }
   }
 
+  a {
+    color: $base-font-color;
+  }
+
   .solution {
     border: 1px solid #ddd;
     margin-bottom: 3em;
     padding: 2em;
     text-align: center;
 
-      @include media($large-down) {
-        margin-bottom: 6em;
+    @include media($large-down) {
+      margin-bottom: 6em;
     }
 
     .solution-checklist {
@@ -40,7 +32,6 @@
     }
 
     li {
-      margin: 0 0 0.8em 0;
       padding: 0 0 0 30px;
       position: relative;
     }
@@ -58,15 +49,11 @@
     }
 
     img {
-        height: 90px;
-      }
+      height: 90px;
+    }
 
     @include media($large-up) {
-      @include span-columns(4);
-
-      h3 {
-        font-size: 1.4em;
-      }
+      @include span-columns(6);
     }
   }
 }
