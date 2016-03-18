@@ -199,7 +199,7 @@ nl:
         name: Implementaties
       koppelingen:
         desc: "Onze software kan %{link} worden met verschillende systemen."
-        link: geintegreerd
+        link: geïntegreerd
         name: Koppelingen
     title: "Diensten waar we trots op zijn."
   testimonials:
