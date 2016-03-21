@@ -40,16 +40,16 @@ nl:
       linkedin: Deel op LinkedIn
   capp:
     cta_bottom:
-      formkeep_title: "CAPP: afpraak maken"
-      heading_md: "Samen een business case maken over hoeveel u kunt besparen met CAPP Leren?"
-    desc: "%{link} zorgt er voor dat uw medewerkers op eenvoudige en doeltreffende wijze leren en hun talenten ontwikkelen."
+      formkeep_title: "CAPP: afspraak maken"
+      heading_md: "Samen een business case maken over hoeveel je kunt besparen met CAPP Leren?"
+    desc: "%{link} zorgt er voor dat jouw medewerkers op eenvoudige en doeltreffende wijze leren en hun talenten ontwikkelen."
     hero:
       formkeep_title: "CAPP: download productsheet"
-      text_md: "__CAPP LMS Software__ helpt uw medewerkers of klanten op optimale wijze op te leiden en hun vakmanschap te bevorderen."
+      text_md: "__CAPP LMS Software__ helpt medewerkers of klanten op optimale wijze op te leiden en hun vakmanschap te bevorderen."
       title: "Opleiden & Leren met CAPP LMS"
     name: CAPP
   contact:
-    form_title: "Wat kunnen we voor u betekenen?"
+    form_title: "Wat kunnen we voor je betekenen?"
     heading: Aangenaam
     heading2: "We maken graag kennis, bij jullie, of bij ons in Groningen."
     phone: "050 3144832"
@@ -59,23 +59,22 @@ nl:
   elearning:
     cta_bottom:
       formkeep_title: "E-Learning: meer informatie"
-      heading_md: "Weten wat E-Learning voor uw organisatie kan betekenen?"
-    heading: "Met Defacto als ervaren en technisch onderlegde partner, wordt de toepassing van E-Learning in uw organisatie onherroepelijk een succes."
+      heading_md: "Weten wat E-Learning voor jouw organisatie kan betekenen?"
+    heading: "Met Defacto als ervaren en technisch onderlegde partner, wordt de toepassing van e-learning in jouw organisatie onherroepelijk een succes."
   elearning_ebook:
-    formkeep_title: "E-book download"
     formkeep_title_popup: "E-book download popup"
-    heading_html: "Download gratis ons <span class=\"pre\">E-Learning</span> Handboek"
+    heading_html: "Download gratis ons <span class=\"pre\">e-learning</span> handboek"
     image_alt: "E-Learning Handboek Leren & Laten Leren"
   elearning_starterkit:
-    desc: "Maak uw eigen content met de %{link}. Zo bespaart u geld en sluit uw content beter aan bij uw behoeften. De E-Learning Starterkit bevat alles wat u nodig heeft om meteen van start te gaan."
+    desc: "Maak je eigen content met de %{link}. Zo bespaar je geld en sluit content beter aan bij jouw behoeften. De E-Learning Starterkit bevat alles wat je nodig hebt om meteen van start te gaan."
     hero:
       formkeep_title: "E-Learning Starterkit"
-      text_md: "Op eenvoudige en betaalbare wijze zelf uw lesmateriaal ontwikkelen"
+      text_md: "Op eenvoudige en betaalbare wijze zelf lesmateriaal ontwikkelen"
       title: "E-Learning Starterkit"
     name: "E-Learning Starterkit"
   error:
     heading: "Sorry, deze pagina bestaat niet."
-    text_md: "Dit betekent niet dat u iets verkeerd heeft gedaan, het kan zijn dat we de pagina hernoemd of verplaatst hebben."
+    text_md: "Dit betekent niet dat je iets verkeerd hebt gedaan, het kan zijn dat we de pagina hernoemd of verplaatst hebben."
   footer:
     capp: "CAPP Leren & Ontwikkelen"
     contact: >
@@ -91,7 +90,7 @@ nl:
     cmt: "Convenant Medische Technologie"
   form:
     email: E-mail
-    message: "Wat kunnen we voor u betekenen?"
+    message: "Wat kunnen we voor je betekenen?"
     name: Naam
     organization: "Bedrijf of organisatie"
     phone: Telefoon
@@ -120,7 +119,7 @@ nl:
       title: "Developing People"
     highlights:
       capp:
-        text_html: "%{link} zorgt er voor dat uw medewerkers op eenvoudige en doeltreffende wijze leren en hun talenten ontwikkelen."
+        text_html: "%{link} zorgt er voor dat jouw medewerkers op eenvoudige en doeltreffende wijze leren en hun talenten ontwikkelen."
       learningspaces:
         text_html: "%{link} is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert."
         url: "http://www.learningspaces.nl"
@@ -145,14 +144,14 @@ nl:
           - Opleidingsadministratie
           - Leermanagament
           - "E-Learning / ELO"
-        text_html: "De stille, krachtige motor van uw academie. Stroomlijn processen en bespaar tijd. Creëer inzicht met %{link} Leren."
+        text_html: "De stille, krachtige motor van je academie. Stroomlijn processen en bespaar tijd. Creëer inzicht met %{link} Leren."
         title: Leren
       quality:
         keywords:
           - Verplichte opleiding en praktijkervaring vastleggen
           - Bewaken certificering
           - Kwaliteitsmonitor voor accreditatie van NIAZ, ISO, WFT, Wet BIO, JSI, etc.
-        text_html: "Real-time inzicht in vakbevoegdheid van uzelf, uw team en uw organisatie. Voldoe permanent en zichtbaar aan de (formele) kwaliteitseisen."
+        text_html: "Real-time inzicht in vakbevoegdheid van jou, het team en de organisatie. Voldoe permanent en zichtbaar aan de (formele) kwaliteitseisen."
         title: Kwaliteitspaspoort
   hosting:
     heading: "Hosting & Security"
@@ -163,8 +162,8 @@ nl:
   kwaliteitspaspoort:
     cta_bottom:
       formkeep_title: "Kwaliteitspaspoort: afspraak maken"
-      heading_md: "Nu beginnen met het behalen van uw accreditaties met het Kwaliteitspaspoort?"
-    desc: "Garandeer kwaliteit binnen uw organisatie door te werken aan bevoegdheden en bekwaamheden van uw medewerkers. Maak uw organisatie toekomstbestendig met het %{link}."
+      heading_md: "Nu beginnen met het behalen van accreditaties met het Kwaliteitspaspoort?"
+    desc: "Garandeer kwaliteit binnen jouw organisatie door te werken aan bevoegdheden en bekwaamheden van medewerkers. Maak jouw organisatie toekomstbestendig met het %{link}."
     hero:
       formkeep_title: "Kwaliteitspaspoort: meer informatie"
       text_md: "Aantoonbaar vakbekwaam met CAPP Kwaliteitspaspoort"
@@ -176,7 +175,7 @@ nl:
       heading_md: "Vandaag nog beginnen met een gratis trial?"
     desc: "%{link} is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert."
     hero:
-      text_md: "__LearningSpaces__ is een laagdrempelig social learning platform dat leren en kennisdeling stimuleert."
+      text_md: "__LearningSpaces__ is een laagdrempelig social-learning platform dat leren en kennisdeling stimuleert."
     logo: logos/learningspaces-white.png
     name: LearningSpaces
     start_now: "Begin nu met LearningSpaces"
@@ -187,14 +186,14 @@ nl:
   services:
     services:
       elearning:
-        desc: "Met Defacto als ervaren en technisch onderlegde partner, wordt de %{link} in uw organisatie onherroepelijk een succes."
+        desc: "Met Defacto als ervaren en technisch onderlegde partner, wordt de %{link} in jouw organisatie onherroepelijk een succes."
         name: E-Learning
       hosting:
         desc: "Met 25 jaar ervaring in ICT-implementaties bij grote (overheids) instanties weten wij bij uitstek dat gedegen %{link} van essentieel belang is."
         link: "hosting en informatiebeveiliging"
         name: "Hosting & Security"
       implementaties:
-        desc: "Defacto heeft een eigen %{link} ontwikkeld waarin onze projectleider en consultants samen met uw management team de strategie en uitvoering waarborgen."
+        desc: "Defacto heeft een eigen %{link} ontwikkeld waarin onze projectleider en consultants samen met jouw management team de strategie en uitvoering waarborgen."
         link: implementatiemethodiek
         name: Implementaties
       koppelingen:
@@ -212,7 +211,7 @@ nl:
   threesixty:
     cta_bottom:
       heading_md: "Kijk in de spiegel met 360° Feedback."
-    desc: "Maak een efficiëntieslag in uw HRD. %{link} maakt het voor medewerkers eenvoudig hun zelfkennis te vergroten en ontwikkeldoelen op te stellen."
+    desc: "Maak een efficiëntieslag in jouw HRD. %{link} maakt het voor medewerkers eenvoudig hun zelfkennis te vergroten en ontwikkeldoelen op te stellen."
     hero:
       text_md: "Moeiteloos evaluaties uitvoeren in een gebruiksvriendelijke cloudservice."
       title: "360° Feedback"
