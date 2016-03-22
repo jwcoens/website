@@ -96,7 +96,7 @@ nl:
     phone: Telefoon
     submit: Verstuur
   head:
-    default_description: "Defacto helpt organisaties bij het ontwikkelen en certificeren van hun medewerkers"
+    default_description: "Defacto helpt organisaties bij het opleiden, ontwikkelen en certificeren van hun medewerkers"
     default_title: Defacto
   header:
     about: "Over ons"
@@ -131,7 +131,7 @@ nl:
           - Jaargesprekken
         text_html: "Geef medewerkers efficiënte tools voor hun ontwikkelprocessen en een overzichtelijk persoonlijk portfolio."
         title: Ontwikkelen
-      headline: "Defacto helpt organisaties bij het ontwikkelen en certificeren van hun medewerkers"
+      headline: "Defacto helpt organisaties bij het opleiden, ontwikkelen en certificeren van hun medewerkers"
       informal:
         keywords:
           - "Direct aan de slag met Learning Communities"
