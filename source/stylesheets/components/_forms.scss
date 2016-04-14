@@ -1,3 +1,11 @@
+form button,
+form .button {
+
+  @include media ($medium-down) {
+    width: 100%;
+  }
+}
+
 .form-inline {
   max-width: none;
   text-align: center;
