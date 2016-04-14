@@ -82,6 +82,15 @@ $popup-mobile-mode: max-width 400px;
     margin: auto;
   }
 
+  .popup-img {
+    display: block;
+
+    @include media ($medium-down) {
+      margin: 0 auto;
+      width: 40%;
+    }
+  }
+
   .pre {
     white-space: nowrap;
   }
@@ -100,6 +109,10 @@ $popup-mobile-mode: max-width 400px;
     font-size: 1.6em;
     font-weight: 300;
     margin: 0;
+
+    @include media($medium-down) {
+      font-size: 1.2em;
+    }
   }
 
   .popup-bottom {
