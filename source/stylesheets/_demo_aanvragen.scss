@@ -1,0 +1,26 @@
+.demo-aanvragen {
+  .hero {
+    @include radial-gradient(circle at 50%,
+      $blue 33%,
+      rgba($blue, 0.5) 33%,
+      rgba($blue, 0.5) 66%,
+      $blue-alt 66%,
+      $fallback: $blue-alt);
+
+    background-attachment: scroll;
+
+    h1 {
+      font-size: 1.8em;
+      margin: 0 auto 2em;
+      max-width: 70%;
+    }
+
+    .hero-inner {
+      padding: 3em 1em 0;
+    }
+  }
+
+  .intro-demo {
+    text-align: center;
+  }
+}

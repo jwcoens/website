@@ -11,9 +11,112 @@
 
     h1 {
       font-family: 'Montserrat', $base-font-family;
-      margin-bottom: 0.5em;
+      font-size: 1.5em;
       font-weight: 700;
+      margin: 0.2em 0 0.5em 0;
+      text-align: left;
     }
+
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin: 0 0 1.2em 0;
+      text-align: left;
+    }
+  }
+
+  .hero-inner {
+    max-width: 960px;
+    padding: 3em 0 2em;
+
+    .button {
+      font-size: 1em;
+      margin: 0;
+    }
+  }
+
+  .icon-demo {
+    $demo-icon: '../images/demo.png';
+    background-image: url($demo-icon);
+    height: 40px;
+    width: 40px;
+  }
+
+  .hero-copy {
+    float: left;
+    margin-top: 1em;
+    width: 50%;
+    padding: 0.5em;
+
+    @include media($large-down) {
+      width: 100%;
+      float: none;
+      padding: 1em;
+      text-align:center;
+
+      h1 {
+        text-align: center;
+      }
+
+      p {
+        max-width: 960px;
+        text-align: center;
+      }
+    }
+  }
+
+  .hero-slider {
+    float: left;
+    height: 100%;
+    text-align: left;
+    width: 50%;
+    padding: 1em;
+
+    @include media($large-down) {
+      width: 100%;
+      float: none;
+    }
+  }
+
+  img {
+    @include media($medium-down) {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 1em;
+      }
+    }
+
+  .featured {
+    background: $blue;
+    color: $white;
+    margin: 2em 0;
+    padding: 1em 1em 1em 3.6em;
+    position: relative;
+  }
+
+  .star {
+    font-size: 3em;
+    font-weight: bold;
+    left: 0.4em;
+    position: absolute;
+    top: 0;
+    vertical-align: top;
+  }
+
+  .align-right {
+    float: right;
+    margin-left: 2em;
+    margin-bottom: 1em;
+  }
+
+  .align-left {
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 1em;
   }
 
   .gray {

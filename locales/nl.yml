@@ -35,10 +35,11 @@ nl:
   capp:
     cta_bottom:
       formkeep_title: "CAPP: afpraak maken"
-      heading_md: "Samen een business case maken over hoeveel je kunt besparen met CAPP Leren?"
+      heading_md: "Meer informatie over opleiden, leren & ontwikkelen met __CAPP LMS__?"
+      text: "Download nu de CAPP LMS Productsheet"
+      formkeep_title: "CAPP: download productsheet"
     desc: "%{link} zorgt er voor dat uw medewerkers op eenvoudige en doeltreffende wijze leren en hun talenten ontwikkelen."
     hero:
-      formkeep_title: "CAPP: download productsheet"
       text_md: "__CAPP LMS Software__ helpt uw medewerkers of klanten op optimale wijze op te leiden en hun vakmanschap te bevorderen."
       title: "Opleiden & Leren met CAPP LMS"
     name: CAPP
