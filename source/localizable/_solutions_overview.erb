@@ -1,5 +1,4 @@
 <section class="solutions">
-
   <div class="row">
     <div class="headline">
       <h2><%= t("home.solutions.headline") %></h2>
@@ -15,11 +14,9 @@
       <p><%= t("home.solutions.learn.text_html", link: locale_link_to("CAPP", "/capp.html")) %></p>
       <div class="solution-checklist">
         <ul class="checklist">
-          <li>Opleidingscatalogus</li>
-          <li>Blended learning</li>
-          <li>E-Learning omgeving</li>
-          <li>Digitaal Leerportaal</li>
-          <li>Cursusadministratie</li>
+           <% t("home.solutions.learn.keywords").each do |keyword| %>
+            <li><%= keyword %></li>
+          <% end %>
         </ul>
       </div>
       <%= locale_link_to t("actions.read_more"), "/capp.html", class: "button blue" %>
@@ -33,10 +30,9 @@
       <p><%= t("home.solutions.quality.text_html") %></p>
       <div class="solution-checklist">
         <ul class="checklist">
-          <li>E-Portfolio</li>
-          <li>Compententiemanagement</li>
-          <li>Jaargesprekken</li>
-          <li>Digitaal Leerportaal</li>
+          <% t("home.solutions.quality.keywords").each do |keyword| %>
+            <li><%= keyword %></li>
+          <% end %>
         </ul>
       </div>
       <%= locale_link_to t("actions.read_more"), "/kwaliteitspaspoort.html", class: "button blue" %>
@@ -50,14 +46,13 @@
       <p><%= t("home.solutions.informal.text_html", link: locale_link_to("LearningSpaces", "/learningspaces.html")) %></p>
       <div class="solution-checklist">
         <ul class="checklist checklist-green">
-          <li>Opleidingscatalogus</li>
-          <li>Blended learning</li>
-          <li>E-Learning omgeving</li>
-          <li>Digitaal Leerportaal</li>
-          <li>Cursusadministratie</li>
+           <% t("home.solutions.informal.keywords").each do |keyword| %>
+            <li><%= keyword %></li>
+          <% end %>
         </ul>
       </div>
       <%= locale_link_to t("actions.read_more"), "/learningspaces.html", class: "button green" %>
     </div>
   </div>
+
 </section>
