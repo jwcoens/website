@@ -1,8 +1,5 @@
 .solutions {
-
   .row {
-    margin-top: 2em;
-
     @include media($large-up) {
       display: flex;
     }
@@ -10,6 +7,10 @@
 
   a {
     color: $base-font-color;
+  }
+
+  h3 {
+    font-size: 1.5em;
   }
 
   .solution {
@@ -28,7 +29,6 @@
 
   .checklist {
     display: inline-block;
-    position: relative;
   }
 
   li {
@@ -37,7 +37,6 @@
   }
 
   .button {
-    font-size: 1.2em;
     margin-top: 1em;
   }
 
@@ -54,6 +53,6 @@
 
   @include media($large-up) {
     @include span-columns(6);
-  }
+    }
   }
 }
