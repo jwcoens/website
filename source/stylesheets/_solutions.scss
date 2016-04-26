@@ -17,18 +17,22 @@
     border: 1px solid #ddd;
     margin-bottom: 3em;
     padding: 2em;
+    padding-bottom: 6em;
     text-align: center;
+    position: relative;
 
     @include media($large-down) {
       margin-bottom: 6em;
     }
 
-  .solution-checklist {
-    width: 100%;
+    @include media($large-up) {
+      @include span-columns(6);
+    }
   }
 
   .checklist {
     display: inline-block;
+    margin-bottom: 3em;
   }
 
   li {
@@ -37,7 +41,10 @@
   }
 
   .button {
-    margin-top: 1em;
+    @include transform(translateX(-50%));
+    position: absolute;
+    bottom: 2.4em;
+    left: 50%;
   }
 
   .solution-icon {
@@ -49,10 +56,5 @@
 
   img {
     height: 90px;
-  }
-
-  @include media($large-up) {
-    @include span-columns(6);
-    }
   }
 }
