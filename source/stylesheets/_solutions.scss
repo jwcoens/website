@@ -9,8 +9,8 @@
     color: $base-font-color;
   }
 
-  h3 {
-    font-size: 1.5em;
+  h2 {
+      font-size: 2em;
   }
 
   .solution {
@@ -19,40 +19,44 @@
     padding: 2em;
     text-align: center;
 
-    @include media($large-down) {
-      margin-bottom: 6em;
+      @include media($large-down) {
+        margin-bottom: 6em;
+      }
+
+    .solution-checklist {
+      width: 100%;
     }
 
-  .solution-checklist {
-    width: 100%;
-  }
+    .checklist {
+      display: inline-block;
+    }
 
-  .checklist {
-    display: inline-block;
-  }
+    li {
+      padding: 0 0 0 30px;
+    }
 
-  li {
-    padding: 0 0 0 30px;
-    position: relative;
-  }
+    .button {
+      font-size: 1.2em;
+      margin-top: 1em;
+    }
 
-  .button {
-    margin-top: 1em;
-  }
+    .solution-icon {
+      background: #fff;
+      display: inline-block;
+      margin-top: -6em;
+      padding: 1em;
+    }
 
-  .solution-icon {
-    background: #fff;
-    display: inline-block;
-    margin-top: -6em;
-    padding: 1em;
-  }
+    img {
+      height: 90px;
+    }
 
-  img {
-    height: 90px;
-  }
+    @include media($large-up) {
+      @include span-columns(4);
 
-  @include media($large-up) {
-    @include span-columns(6);
+      h3 {
+        font-size: 1.4em;
+      }
     }
   }
 }

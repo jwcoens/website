@@ -107,9 +107,8 @@ nl:
       text_html: "Meer weten? Bel <a href=\"tel:+31503144832\" class=\"phone\">050 314 48 32</a> of"
     hero:
       since: "sinds 1987"
-      text: "Meer dan 200.000 professionals gebruiken onze learning management software om te leren en hun talenten te ontwikkelen"
-      title: "Defacto helpt organisaties bij het ontwikkelen en certificeren van hun medewerkers"
-
+      text: "Meer dan 200.000 professionals gebruiken onze software om te leren en hun talenten te ontwikkelen"
+      title: "Developing People"
     highlights:
       capp:
         text_html: "%{link} zorgt er voor dat uw medewerkers op eenvoudige en doeltreffende wijze leren en hun talenten ontwikkelen."
@@ -136,7 +135,7 @@ nl:
           - Opleidingsadministratie
           - Leermanagament
           - "E-Learning / ELO"
-        text_html: "Geef medewerkers efficiënte tools voor hun ontwikkelprocessen en een overzichtelijk persoonlijk portfolio. Creëer inzicht met %{link} Leren & Ontwikkelen."
+        text_html: "De stille, krachtige motor van uw academie. Stroomlijn processen en bespaar tijd. Creëer inzicht met %{link} Leren & Ontwikkelen."
         title: CAPP Leren & Ontwikkelen
       quality:
         keywords:
