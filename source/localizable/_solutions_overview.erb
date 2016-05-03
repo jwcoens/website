@@ -12,7 +12,7 @@
       </div>
       <h3><%= locale_link_to t("home.solutions.learn.title"), "/capp.html" %></h3>
       <p><%= t("home.solutions.learn.text_html", link: locale_link_to("CAPP", "/capp.html")) %></p>
-      <ul class="checklist">
+      <ul class="keywords">
          <% t("home.solutions.learn.keywords").each do |keyword| %>
           <li><%= keyword %></li>
         <% end %>
@@ -26,7 +26,7 @@
       </div>
       <h3><%= locale_link_to t("home.solutions.quality.title"), "/kwaliteitspaspoort.html" %></h3>
       <p><%= t("home.solutions.quality.text_html") %></p>
-      <ul class="checklist">
+      <ul class="keywords">
         <% t("home.solutions.quality.keywords").each do |keyword| %>
           <li><%= keyword %></li>
         <% end %>
@@ -40,7 +40,7 @@
       </div>
       <h3><%= locale_link_to t("home.solutions.informal.title"), "/learningspaces.html" %></h3>
       <p><%= t("home.solutions.informal.text_html", link: locale_link_to("LearningSpaces", "/learningspaces.html")) %></p>
-      <ul class="checklist checklist-green">
+      <ul class="keywords">
          <% t("home.solutions.informal.keywords").each do |keyword| %>
           <li><%= keyword %></li>
         <% end %>
