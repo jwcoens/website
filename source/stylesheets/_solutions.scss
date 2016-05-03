@@ -18,8 +18,8 @@
     margin-bottom: 3em;
     padding: 2em;
     padding-bottom: 6em;
-    text-align: center;
     position: relative;
+    text-align: center;
 
     @include media($large-down) {
       margin-bottom: 6em;
@@ -40,7 +40,7 @@
 
       &::before {
         background-color: $light-gray;
-        content: '';
+        content: "";
         height: 1px;
         left: 50%;
         margin-left: -10px;
@@ -57,9 +57,9 @@
 
   .button {
     @include transform(translateX(-50%));
-    position: absolute;
     bottom: 2.4em;
     left: 50%;
+    position: absolute;
   }
 
   .solution-icon {
