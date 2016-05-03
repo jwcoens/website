@@ -14,7 +14,7 @@
   }
 
   .solution {
-    border: 1px solid #ddd;
+    border: 1px solid $light-gray;
     margin-bottom: 3em;
     padding: 2em;
     padding-bottom: 6em;
@@ -48,7 +48,7 @@
   }
 
   .solution-icon {
-    background: #fff;
+    background: $white;
     display: inline-block;
     margin-top: -6em;
     padding: 1em;
