@@ -18,7 +18,8 @@
         <% end %>
         <li><%= nav_link_to t("header.contact"), "/contact.html" %></li>
         <li class="flags">
-          <%= country_flags %>
+          <%= country_flags unless current_page.url == "/convenant-medische-technologie/" %>
+          <%= link_to image_tag("flags/de.gif", alt: "Deutsch"), "http://www.defactolearning.de", target: "_blank" if current_page.url == "/convenant-medische-technologie/" %>
           <%= link_to image_tag("flags/en.gif", alt: "English"), "http://en.defacto.nl", target: "_blank" %>
         </li>
       </ul>
