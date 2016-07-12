@@ -4,6 +4,7 @@ date: 2016-04-25 7:30 CET
 tags:
 author: Gerwin
 lang: nl
+thumb: images/thumbs/20160425-kpp.jpg
 image: images/social/zelfsturende-teams-ondersteunen-kwaliteitspaspoort.png
 ---
 

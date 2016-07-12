@@ -5,6 +5,7 @@ tags:
 author: iwanna
 lang: nl
 featured: true
+thumb: images/thumbs/20160712-bedrijfsuitje.jpg
 image: images/social/bedrijfsuitje-defacto-2016-1200x630.png
 ---
 

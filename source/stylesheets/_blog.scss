@@ -137,6 +137,15 @@ body[class*="_index"] {
   article {
     border-bottom: #ebf2f6 1px solid;
     padding: 2.4em 0;
+    display: flex;
+
+    .post-thumb {
+      width: 80%;
+    }
+
+    .post {
+      vertical-align: center;
+    }
   }
 
   li:first-child article {

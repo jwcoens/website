@@ -4,6 +4,7 @@ date: 2016-06-20 10:58 CEST
 tags:
 author: Joep
 lang: nl
+thumb: images/thumbs/20160620-help.jpg
 image: images/social/scorm-sores-1200x630.png
 ---
 
